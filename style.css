@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 240, 255)
+}
+
+.coronadata{
+    margin:2vw;
+    padding: 4vw;
+    background-color: lightgreen;
+    border-radius: 4vw;
+    box-shadow: 0.4vw 0.4vw;
+}
+.coronadata span{
+  display: block;
+}
+
+.name{
+  font-size: 5vw;
+  text-align: center;
+}
