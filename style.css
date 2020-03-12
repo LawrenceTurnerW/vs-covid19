@@ -1,17 +1,27 @@
+@font-face {
+  font-family: 'han_code_body';
+  src:url('./font/SourceHanCodeJP-Regular.otf');
+}
+@font-face {
+  font-family: 'han_code_head';
+  src:url('./font/SourceHanCodeJP-Bold.otf');
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: han_code_body;
+  font-size: 1.5vw;
 }
 
 body {
-  background-color: rgb(240, 240, 255)
+  background-color: black;
 }
 
 .coronadata{
     margin:2vw;
-    padding: 4vw;
-    background-color: lightgreen;
+    padding: 3vw;
+    background-color: #0FE900;
     border-radius: 4vw;
     box-shadow: 0.4vw 0.4vw;
 }
@@ -22,4 +32,23 @@ body {
 .name{
   font-size: 5vw;
   text-align: center;
+  font-family: han_code_head;
+}
+
+.company_box{
+  margin-top: 10px;
+}
+
+.tag div{
+  background-color: orange;
+  display: inline;
+  padding: 2px;
+}
+.company{
+  text-align: right;
+  padding: 10px;
+}
+.announcement{
+  text-align: right;
+  font-size: 0.8vw;
 }
